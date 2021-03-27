@@ -1,0 +1,11 @@
+.filterBlue{
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgb(54, 166, 214);;
+position: absolute;
+z-index: 1000;
+  
+}
