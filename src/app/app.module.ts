@@ -10,6 +10,9 @@ import { LoginComponent } from './component/login/login.component';
 import { RegisterComponent } from './component/register/register.component';
 import { HeaderTwoComponent } from './shared/header-two/header-two.component';
 import { HeaderOneComponent } from './shared/header-one/header-one.component';
+import { CardItemComponent } from './component/card-item/card-item.component';
+import { MatIconModule } from "@angular/material/icon";
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -19,12 +22,15 @@ import { HeaderOneComponent } from './shared/header-one/header-one.component';
     RegisterComponent,
     HeaderOneComponent,
     HeaderTwoComponent,
+    CardItemComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FlexLayoutModule,
-    MatCardModule
+    MatCardModule,
+    MatIconModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
