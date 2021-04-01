@@ -5,11 +5,11 @@
               Series
               Outros
       </div>
-
-      <div class = 'background-logo' fxLayout="row" fxLayoutAlign="center end">
+      <a [routerLink]="['/']" title="Home">
+      <div class = 'background-logo' fxLayout="row" fxLayoutAlign="center end" >
             <img src="../../../assets/imagens/logo.png" style="width: 100px; height: 100px;">
       </div>
-
+</a>
         <div>
           <a [routerLink]="['/login']" title="Login"> Entrar </a>
           <a [routerLink]="['/register']" title="Login"> Cadastre-se </a>
