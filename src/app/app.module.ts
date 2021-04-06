@@ -13,6 +13,7 @@ import { HeaderOneComponent } from './shared/header-one/header-one.component';
 import { CardItemComponent } from './component/card-item/card-item.component';
 import { MatIconModule } from "@angular/material/icon";
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { FooterComponent } from './shared/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -23,6 +24,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     HeaderOneComponent,
     HeaderTwoComponent,
     CardItemComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,
