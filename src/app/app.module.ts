@@ -15,6 +15,11 @@ import { MatIconModule } from "@angular/material/icon";
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FooterComponent } from './shared/footer/footer.component';
 
+
+import {IvyCarouselModule} from 'angular-responsive-carousel';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -32,7 +37,9 @@ import { FooterComponent } from './shared/footer/footer.component';
     FlexLayoutModule,
     MatCardModule,
     MatIconModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    IvyCarouselModule,
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]

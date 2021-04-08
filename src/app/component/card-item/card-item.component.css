@@ -39,7 +39,7 @@ h2 strong,
 }
 .cards .card,
 .news .card {
-  margin: 20px;
+  /* margin: 20px; */
   width: 160px;
   height: 220px;
   overflow: hidden;

@@ -16,7 +16,7 @@
 
 
 
-
+<!-- 
 
 <div fxLayout="column" fxLayoutAlign="none" style="width: 100%; height: auto; ">
     <div fxLayout="column" fxLayoutAlign="end start" style="width: 100%; height: auto; ">
@@ -57,9 +57,9 @@
 
     </div>
 
-</div>
+</div> -->
 
-<div fxLayout="column" fxLayoutAlign="none" style="width: 100%; height: auto; ">
+<div fxLayout="column" fxLayoutAlign="none" style="width: 100%; height: auto; margin-bottom: 30px;">
     <div fxLayout="column" fxLayoutAlign="end start" style="width: 100%; height: auto; ">
     </div>
 
@@ -69,29 +69,15 @@
             <h1 style=" float:left; margin-left: 70px; margin-top: 20px;"> Mais vistos</h1>
         </div>
 
-        <div fxLayout="row" fxLayoutAlign="space-around center" style="width: 100%; height: auto; margin-top: -20px;">
-            <div fxLayout="row" fxLayoutAlign="space-around center"
-                style="width: 5%;height: 150px; margin-top: 10px; box-shadow: 2px 2px 5px black; margin-left: 10px; border-radius: 30px;">
+        <div fxLayout="row" fxLayoutAlign="space-around center" style="width: 100%; height: auto; margin-bottom: 30px;">
+            <div class="container" style="width: 80%; ">
+                <carousel [cellWidth]='160' [height]="220"  [autoplay]="false" [dots]="false" [freeScroll]="false" [arrowsOutside]="true"
+                    [loop]="false">
 
-                <mat-icon>arrow_back_ios</mat-icon>
-
-            </div>
-            <div fxLayout="row" fxLayoutAlign="space-around center"
-                style="width: 80%;height: 300px; margin-top: 10px; ">
-
-
-
-                <div fxLayout="row" fxLayoutAlign="center center" *ngFor="let f of filmes">
-                    <app-card-item [title]="f.name" [url]="f.path"></app-card-item>
-                </div>
-
-
-            </div>
-            <div fxLayout="row" fxLayoutAlign="space-around center"
-                style="width: 5%;height: 150px; margin-top: 10px; box-shadow: 2px 2px 5px black; margin-right: 25px; border-radius: 30px;">
-
-                <mat-icon>arrow_forward_ios</mat-icon>
-
+                    <div  class="carousel-cell" fxLayout="row" fxLayoutAlign="center center" *ngFor="let f of filmes" style="background-color: black;">
+                        <app-card-item [title]="f.name" [url]="f.path"></app-card-item>
+                    </div>
+                </carousel>
             </div>
         </div>
 
@@ -100,69 +86,53 @@
 
 </div>
 
-
-
-<div fxLayout="column" fxLayoutAlign="none" style="width: 100%; height: auto; ">
+<div fxLayout="column" fxLayoutAlign="none" style="width: 100%; height: auto; margin-bottom: 30px;">
     <div fxLayout="column" fxLayoutAlign="end start" style="width: 100%; height: auto; ">
     </div>
 
     <div fxLayout="column" fxLayoutAlign="start start" style="width: 100%; height: auto; ">
 
         <div>
-            <h1 style=" float:left; margin-left: 70px; margin-top: 20px;"> Veja mais</h1>
+            <h1 style=" float:left; margin-left: 70px; margin-top: 20px;"> Ultimos lançamentos </h1>
         </div>
 
-        <div fxLayout="column" fxLayoutAlign="space-around center"
-            style="width: 100%; height: auto; margin-top: -20px;">
+        <div fxLayout="row" fxLayoutAlign="space-around center" style="width: 100%; height: auto; margin-bottom: 30px;">
+            <div class="container" style="width: 80%; ">
+                <carousel [cellWidth]='160' [height]="220"  [autoplay]="false" [dots]="false" [freeScroll]="false" [arrowsOutside]="true"
+                    [loop]="false">
 
-            <div fxLayout="row" fxLayoutAlign="space-around center"
-                style="width: 80%;height: 300px; margin-top: 10px; ">
-
-
-
-                <div fxLayout="row" fxLayoutAlign="center center" *ngFor="let f of filmes">
-                    <app-card-item [title]="f.name" [url]="f.path"></app-card-item>
-                </div>
-
-                <div fxLayout="row" fxLayoutAlign="center center" >
-                    <app-card-item [title]="filmes[1].name" [url]="filmes[1].path"></app-card-item>
-                </div>
-
+                    <div  class="carousel-cell" fxLayout="row" fxLayoutAlign="center center" *ngFor="let f of filmes" style="background-color: black;">
+                        <app-card-item [title]="f.name" [url]="f.path"></app-card-item>
+                    </div>
+                </carousel>
             </div>
-
-
-            <div fxLayout="row" fxLayoutAlign="space-around center"
-            style="width: 80%;height: 300px; margin-top: 10px; ">
-
-
-
-            <div fxLayout="row" fxLayoutAlign="center center" *ngFor="let f of filmes">
-                <app-card-item [title]="f.name" [url]="f.path"></app-card-item>
-            </div>
-
-            <div fxLayout="row" fxLayoutAlign="center center" >
-                <app-card-item [title]="filmes[1].name" [url]="filmes[1].path"></app-card-item>
-            </div>
-
         </div>
 
-
-        <div fxLayout="row" fxLayoutAlign="space-around center"
-        style="width: 80%;height: 300px; margin-top: 10px; ">
-
-
-
-        <div fxLayout="row" fxLayoutAlign="center center" *ngFor="let f of filmes">
-            <app-card-item [title]="f.name" [url]="f.path"></app-card-item>
-        </div>
-        <div fxLayout="row" fxLayoutAlign="center center" >
-            <app-card-item [title]="filmes[1].name" [url]="filmes[1].path"></app-card-item>
-        </div>
 
     </div>
 
+</div>
 
+<div fxLayout="column" fxLayoutAlign="none" style="width: 100%; height: auto; margin-bottom: 30px;">
+    <div fxLayout="column" fxLayoutAlign="end start" style="width: 100%; height: auto; ">
+    </div>
 
+    <div fxLayout="column" fxLayoutAlign="start start" style="width: 100%; height: auto; ">
+
+        <div>
+            <h1 style=" float:left; margin-left: 70px; margin-top: 20px;"> Mais vistos</h1>
+        </div>
+
+        <div fxLayout="row" fxLayoutAlign="space-around center" style="width: 100%; height: auto; margin-bottom: 30px;">
+            <div class="container" style="width: 80%; ">
+                <carousel [cellWidth]='160' [height]="220"  [autoplay]="false" [dots]="false" [freeScroll]="false" [arrowsOutside]="true"
+                    [loop]="false">
+
+                    <div  class="carousel-cell" fxLayout="row" fxLayoutAlign="center center" *ngFor="let f of filmes" style="background-color: black;">
+                        <app-card-item [title]="f.name" [url]="f.path"></app-card-item>
+                    </div>
+                </carousel>
+            </div>
         </div>
 
 

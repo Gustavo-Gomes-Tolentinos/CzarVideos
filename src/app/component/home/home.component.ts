@@ -33,6 +33,18 @@ export class HomeComponent implements OnInit {
     {
       name: 'A Cinco Passos deVocê',
       path: "../../../assets/imagens/6.jpg",
+    },
+    {
+      name: "Raya e o Último Dragão",
+      path: "../../../assets/imagens/4.jpg",
+    },
+    {
+      name: 'Enquanto Estivermos Juntos',
+      path: "../../../assets/imagens/5.jpg",
+    },
+    {
+      name: 'A Cinco Passos deVocê',
+      path: "../../../assets/imagens/6.jpg",
     }
   ]
 
