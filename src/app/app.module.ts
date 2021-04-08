@@ -10,7 +10,7 @@ import { LoginComponent } from './component/login/login.component';
 import { RegisterComponent } from './component/register/register.component';
 import { HeaderTwoComponent } from './shared/header-two/header-two.component';
 import { HeaderOneComponent } from './shared/header-one/header-one.component';
-import { CardItemComponent } from './component/card-item/card-item.component';
+import { CardItemComponent } from './component/card/card-item/card-item.component';
 import { MatIconModule } from "@angular/material/icon";
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FooterComponent } from './shared/footer/footer.component';
@@ -18,6 +18,7 @@ import { FooterComponent } from './shared/footer/footer.component';
 
 import {IvyCarouselModule} from 'angular-responsive-carousel';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { CardItenTwoComponent } from './component/card/card-iten-two/card-iten-two.component';
 
 
 @NgModule({
@@ -30,6 +31,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     HeaderTwoComponent,
     CardItemComponent,
     FooterComponent,
+    CardItenTwoComponent,
   ],
   imports: [
     BrowserModule,

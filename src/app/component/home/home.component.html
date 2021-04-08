@@ -120,18 +120,18 @@
     <div fxLayout="column" fxLayoutAlign="start start" style="width: 100%; height: auto; ">
 
         <div>
-            <h1 style=" float:left; margin-left: 70px; margin-top: 20px;"> Mais vistos</h1>
+            <h1 style=" float:left; margin-left: 70px; margin-top: 20px;"> Veja mais </h1>
         </div>
 
         <div fxLayout="row" fxLayoutAlign="space-around center" style="width: 100%; height: auto; margin-bottom: 30px;">
-            <div class="container" style="width: 80%; ">
-                <carousel [cellWidth]='160' [height]="220"  [autoplay]="false" [dots]="false" [freeScroll]="false" [arrowsOutside]="true"
-                    [loop]="false">
+            <div class="container" style="width: 100%; ">
+                <div class="row text-center text-lg-left">
 
-                    <div  class="carousel-cell" fxLayout="row" fxLayoutAlign="center center" *ngFor="let f of filmes" style="background-color: black;">
-                        <app-card-item [title]="f.name" [url]="f.path"></app-card-item>
+                    <div class="col-lg-3 col-md-3 col-6" style="margin-bottom: 5px;"  *ngFor="let f of filmes">
+                        <app-card-iten-two [title]="f.name" [url]="f.path" ></app-card-iten-two>
                     </div>
-                </carousel>
+            
+                </div>
             </div>
         </div>
 

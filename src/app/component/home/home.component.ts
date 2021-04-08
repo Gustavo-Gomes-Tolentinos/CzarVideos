@@ -16,36 +16,191 @@ export class HomeComponent implements OnInit {
   filmes = [
     {
       name: "Zack Snyder's Justice League",
-      path: "../../../assets/imagens/1.jpg",
+      path: "assets/imagens/1.jpg",
     },
     {
       name: "Coringa o filme",
-      path: "../../../assets/imagens/2.jpg",
+      path: "assets/imagens/2.jpg",
     },
     {
       name: "Raya e o Último Dragão",
-      path: "../../../assets/imagens/4.jpg",
+      path: "assets/imagens/4.jpg",
     },
     {
       name: 'Enquanto Estivermos Juntos',
-      path: "../../../assets/imagens/5.jpg",
+      path: "assets/imagens/5.jpg",
     },
     {
       name: 'A Cinco Passos deVocê',
-      path: "../../../assets/imagens/6.jpg",
+      path: "assets/imagens/6.jpg",
     },
     {
       name: "Raya e o Último Dragão",
-      path: "../../../assets/imagens/4.jpg",
+      path: "assets/imagens/4.jpg",
     },
     {
       name: 'Enquanto Estivermos Juntos',
-      path: "../../../assets/imagens/5.jpg",
+      path: "assets/imagens/5.jpg",
     },
     {
       name: 'A Cinco Passos deVocê',
-      path: "../../../assets/imagens/6.jpg",
-    }
+      path: "assets/imagens/6.jpg",
+    },{
+      name: "Zack Snyder's Justice League",
+      path: "assets/imagens/1.jpg",
+    },
+    {
+      name: "Coringa o filme",
+      path: "assets/imagens/2.jpg",
+    },
+    {
+      name: "Raya e o Último Dragão",
+      path: "assets/imagens/4.jpg",
+    },
+    {
+      name: 'Enquanto Estivermos Juntos',
+      path: "assets/imagens/5.jpg",
+    },
+    {
+      name: 'A Cinco Passos deVocê',
+      path: "assets/imagens/6.jpg",
+    },
+    {
+      name: "Raya e o Último Dragão",
+      path: "assets/imagens/4.jpg",
+    },
+    {
+      name: 'Enquanto Estivermos Juntos',
+      path: "assets/imagens/5.jpg",
+    },
+    {
+      name: 'A Cinco Passos deVocê',
+      path: "assets/imagens/6.jpg",
+    },{
+      name: "Zack Snyder's Justice League",
+      path: "assets/imagens/1.jpg",
+    },
+    {
+      name: "Coringa o filme",
+      path: "assets/imagens/2.jpg",
+    },
+    {
+      name: "Raya e o Último Dragão",
+      path: "assets/imagens/4.jpg",
+    },
+    {
+      name: 'Enquanto Estivermos Juntos',
+      path: "assets/imagens/5.jpg",
+    },
+    {
+      name: 'A Cinco Passos deVocê',
+      path: "assets/imagens/6.jpg",
+    },
+    {
+      name: "Raya e o Último Dragão",
+      path: "assets/imagens/4.jpg",
+    },
+    {
+      name: 'Enquanto Estivermos Juntos',
+      path: "assets/imagens/5.jpg",
+    },
+    {
+      name: 'A Cinco Passos deVocê',
+      path: "assets/imagens/6.jpg",
+    },{
+      name: "Zack Snyder's Justice League",
+      path: "assets/imagens/1.jpg",
+    },
+    {
+      name: "Coringa o filme",
+      path: "assets/imagens/2.jpg",
+    },
+    {
+      name: "Raya e o Último Dragão",
+      path: "assets/imagens/4.jpg",
+    },
+    {
+      name: 'Enquanto Estivermos Juntos',
+      path: "assets/imagens/5.jpg",
+    },
+    {
+      name: 'A Cinco Passos deVocê',
+      path: "assets/imagens/6.jpg",
+    },
+    {
+      name: "Raya e o Último Dragão",
+      path: "assets/imagens/4.jpg",
+    },
+    {
+      name: 'Enquanto Estivermos Juntos',
+      path: "assets/imagens/5.jpg",
+    },
+    {
+      name: 'A Cinco Passos deVocê',
+      path: "assets/imagens/6.jpg",
+    },{
+      name: "Zack Snyder's Justice League",
+      path: "assets/imagens/1.jpg",
+    },
+    {
+      name: "Coringa o filme",
+      path: "assets/imagens/2.jpg",
+    },
+    {
+      name: "Raya e o Último Dragão",
+      path: "assets/imagens/4.jpg",
+    },
+    {
+      name: 'Enquanto Estivermos Juntos',
+      path: "assets/imagens/5.jpg",
+    },
+    {
+      name: 'A Cinco Passos deVocê',
+      path: "assets/imagens/6.jpg",
+    },
+    {
+      name: "Raya e o Último Dragão",
+      path: "assets/imagens/4.jpg",
+    },
+    {
+      name: 'Enquanto Estivermos Juntos',
+      path: "assets/imagens/5.jpg",
+    },
+    {
+      name: 'A Cinco Passos deVocê',
+      path: "assets/imagens/6.jpg",
+    },{
+      name: "Zack Snyder's Justice League",
+      path: "assets/imagens/1.jpg",
+    },
+    {
+      name: "Coringa o filme",
+      path: "assets/imagens/2.jpg",
+    },
+    {
+      name: "Raya e o Último Dragão",
+      path: "assets/imagens/4.jpg",
+    },
+    {
+      name: 'Enquanto Estivermos Juntos',
+      path: "assets/imagens/5.jpg",
+    },
+    {
+      name: 'A Cinco Passos deVocê',
+      path: "assets/imagens/6.jpg",
+    },
+    {
+      name: "Raya e o Último Dragão",
+      path: "assets/imagens/4.jpg",
+    },
+    {
+      name: 'Enquanto Estivermos Juntos',
+      path: "assets/imagens/5.jpg",
+    },
+    {
+      name: 'A Cinco Passos deVocê',
+      path: "assets/imagens/6.jpg",
+    },
   ]
 
 }
