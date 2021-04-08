@@ -1,5 +1,4 @@
 
-
 .header{
   top: 0;
   left: 0;
@@ -11,7 +10,7 @@
 .filtro {
   position: fixed;
   width: 100%;
-  height:100vh;
+  height:100%;
   top: 0;
   left: 0;
   background: rgba(0, 38, 255, 0.25);
