@@ -20,6 +20,10 @@ import {IvyCarouselModule} from 'angular-responsive-carousel';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { CardItenTwoComponent } from './component/card/card-iten-two/card-iten-two.component';
 
+import {MatInputModule} from '@angular/material/input';
+import { FormsModule } from '@angular/forms';
+import {MatButtonModule} from '@angular/material/button';
+
 
 @NgModule({
   declarations: [
@@ -41,7 +45,10 @@ import { CardItenTwoComponent } from './component/card/card-iten-two/card-iten-t
     MatIconModule,
     BrowserAnimationsModule,
     IvyCarouselModule,
-    NgbModule
+    NgbModule,
+    MatInputModule,
+    FormsModule,
+    MatButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]
